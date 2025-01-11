@@ -5,6 +5,7 @@
 }
 body {
   background: rgb(245, 245, 245);
+  font-family: Fira Sans;
 }
 nav {
   display: flex;
@@ -18,12 +19,8 @@ nav {
 
 .headerText {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 32px;
   font-weight: 700;
-  line-height: 38px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 
 .header_btn {
@@ -33,7 +30,6 @@ nav {
   padding: 15px 30px 15px 30px;
   background-color: white;
   color: rgb(0, 106, 80);
-  font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
@@ -63,23 +59,15 @@ nav {
 
 .banner-text {
   color: rgba(14, 14, 14, 0.5);
-  font-family: Fira Sans;
   font-size: 24px;
   font-weight: 500;
-  line-height: 29px;
-  letter-spacing: 0%;
-  text-align: left;
   margin-bottom: 20px;
 }
 
 .banner-desc {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 56px;
   font-weight: 700;
-  line-height: 67px;
-  letter-spacing: 0%;
-  text-align: left;
   margin-bottom: 30px;
 }
 
@@ -89,7 +77,6 @@ nav {
   background: rgb(0, 106, 80);
   border: none;
   color: rgb(255, 255, 255);
-  font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
@@ -108,12 +95,8 @@ main {
 
 .primary_text {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 40px;
   font-weight: 700;
-  line-height: 48px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 
 .Pillars_of_Bangladesh {
@@ -161,7 +144,6 @@ main {
   justify-content: flex-start;
   align-items: center;
   gap: 24;
-  padding: 0px;
 }
 
 /* .The-Vision-of-Future p {
@@ -180,7 +162,6 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: left;
   margin-top: 20px;
 }
 
@@ -198,20 +179,6 @@ main {
   cursor: pointer;
 }
 
-.The-Vision-of-Future_btn:hover {
-  background-color: #8d0b41;
-  transition: 0.3s;
-}
-.The-Vision-of-Future_btn_1:hover {
-  background-color: #8d0b41;
-  transition: 0.3s;
-}
-
-.The-Vision-of-Future_btn_2:hover {
-  background-color: #8d0b41;
-  transition: 0.3s;
-}
-
 .The-Vision-of-Future_btn_1 {
   border-radius: 8px;
   color: rgb(255, 255, 255);
@@ -219,7 +186,6 @@ main {
   font-size: 16px;
   font-weight: 600;
   padding: 11px 20px 11px 20px;
-  text-align: left;
   border: none;
   border-radius: 8px;
   background: rgb(9, 161, 92);
@@ -240,6 +206,11 @@ main {
   margin: 10px;
 }
 
+.hoverBtn:hover {
+  background-color: #8d0b41;
+  transition: 0.3s;
+}
+
 .main_Pillars_items-1 {
   box-sizing: border-box;
   border-radius: 16px;
@@ -247,15 +218,7 @@ main {
   padding: 24px;
 }
 
-.main_Pillars_items-1 img {
-  margin: 10px;
-}
-
-.main_Pillars_items-2 img {
-  margin: 10px;
-}
-
-.main_Pillars_items-3 img {
+.The-Vision-of-FutureContainer img {
   margin: 10px;
 }
 
@@ -264,13 +227,11 @@ main {
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 700;
-  text-align: left;
   margin: 10px;
 }
 
 .main_Pillars_items-1 p {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
   margin: 10px;
@@ -288,13 +249,11 @@ main {
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 700;
-  text-align: left;
   margin: 10px;
 }
 
 .main_Pillars_items-2 p {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
   margin: 10px;
@@ -309,7 +268,6 @@ main {
 
 .main_Pillars_items-3 h4 {
   color: rgba(14, 14, 14, 0.8);
-  font-family: Fira Sans;
   font-size: 20px;
   font-weight: 700;
   text-align: left;
@@ -318,7 +276,6 @@ main {
 
 .main_Pillars_items-3 p {
   color: rgba(14, 14, 14, 0.7);
-  font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
   margin: 10px;
@@ -363,7 +320,7 @@ main {
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  margin-top: 10px;
 }
 
 .Recent_News {
@@ -389,8 +346,6 @@ main {
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
-  letter-spacing: 0%;
-  text-align: left;
 }
 .recent_news_content img {
   margin-top: 10px;
@@ -488,6 +443,7 @@ main {
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 400;
+  text-align: center;
 }
 
 .other_amount_tka_btn {
