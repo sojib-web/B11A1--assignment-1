@@ -12,6 +12,8 @@ nav {
   justify-content: space-between;
   padding: 24px 160px 24px 160px;
   margin-bottom: 30px;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .headerText {
@@ -34,6 +36,13 @@ nav {
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.header_btn:hover {
+  transition: 0.3s;
+  color: white;
+  background-color: rgb(0, 106, 80);
 }
 
 .banner_section {
@@ -83,9 +92,12 @@ nav {
   font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
+  cursor: pointer;
+}
+
+.banner-btn:hover {
+  transition: 0.3s;
+  background: #f72c5b;
 }
 
 main {
@@ -183,6 +195,21 @@ main {
   border: none;
   background: rgb(84, 144, 245);
   margin: 10px;
+  cursor: pointer;
+}
+
+.The-Vision-of-Future_btn:hover {
+  background-color: #8d0b41;
+  transition: 0.3s;
+}
+.The-Vision-of-Future_btn_1:hover {
+  background-color: #8d0b41;
+  transition: 0.3s;
+}
+
+.The-Vision-of-Future_btn_2:hover {
+  background-color: #8d0b41;
+  transition: 0.3s;
 }
 
 .The-Vision-of-Future_btn_1 {
@@ -342,12 +369,19 @@ main {
   font-weight: 400;
 }
 
+.recent_img {
+  width: 410px;
+  height: 310px;
+}
+
 .recent_desc {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
   margin-top: 30px;
+  line-height: 24px;
+  letter-spacing: 0%;
 }
 
 .recent_btn {
@@ -360,6 +394,11 @@ main {
   padding: 13px 26px 13px 26px;
   background: rgb(0, 106, 80);
   margin-top: 32px;
+}
+
+.recent_btn:hover {
+  background-color: #f72c5b;
+  transition: 0.3s;
 }
 
 .Donate_Today {
@@ -386,7 +425,13 @@ main {
   background: rgb(255, 255, 255);
 }
 
-.ss {
+.taka1:hover {
+  background-color: #8d0b41;
+  transition: 0.3s;
+  color: white;
+}
+
+.bg_clor {
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -406,9 +451,6 @@ main {
   font-family: Fira Sans;
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0%;
-  text-align: center;
 }
 
 .other_amount_tka_btn {
@@ -457,12 +499,8 @@ input {
 
 .Subscribe_btn {
   color: rgb(255, 255, 255);
-  font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
   border: none;
   border-radius: 0px 8px 8px 0px;
   padding: 13px 40px 16px 40px;
@@ -474,8 +512,6 @@ input {
   font-family: Fira Sans;
   font-size: 16px;
   font-weight: 400;
-  line-height: 19px;
-  letter-spacing: 0%;
   text-align: center;
   margin-top: 40px;
 }
