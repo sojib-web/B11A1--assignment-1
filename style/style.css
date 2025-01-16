@@ -544,7 +544,9 @@ hr {
     padding: 20px;
     width: 100%;
   }
-
+  body {
+    overflow: hidden;
+  }
   .banner-text {
     font-size: 34px;
     text-align: left;
@@ -558,7 +560,6 @@ hr {
   }
 
   .banner-right-side img {
-    display: block;
     margin: 0 auto;
     width: 70%;
     margin-bottom: 20px;
