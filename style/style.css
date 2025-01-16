@@ -530,3 +530,37 @@ hr {
   gap: 20px;
   margin: 20px;
 }
+
+.all_sectionHide {
+  visibility: hidden;
+}
+
+/* responsive side */
+
+@media screen and (max-width: 576px) {
+  .banner_section {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  .banner-text {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .banner-desc {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .banner-right-side img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+}
